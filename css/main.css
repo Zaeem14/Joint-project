@@ -1,0 +1,7 @@
+.task {
+    display: inline-block;
+}
+
+.task-container {
+    display: block;
+}
