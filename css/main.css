@@ -4,4 +4,18 @@
 
 .task-container {
     display: block;
+    display: flex;
+    margin: 10px auto;
+    padding: 7px;
+    background-color: gray;
+
+}
+
+.taskName {
+     font-size: 1.2em;                         
+}
+
+.delete-button 
+    font-size: 1.2em;
+    cursor: pointer;
 }

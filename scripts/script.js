@@ -13,7 +13,7 @@ function addTask(todo) {
     const taskElement = document.createElement('div');
     taskElement.classList.add('task-container');
     taskElement.innerHTML = `
-        <span>${todo}</span>
+        <span class="taskName">${todo}</span>
         <button class="delete-button js-delete-button">Delete</button>
  
     `;
