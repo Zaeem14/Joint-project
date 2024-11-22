@@ -1,10 +1,10 @@
 const addButton = document.querySelector(".js-add-task-button");
 addButton.addEventListener("click", () => {
-    const taskInput = document.querySelector(".js-task-input");
-    const taskList = document.querySelector(".js-task-list");
-    const task = taskInput.value;
+    const taskInputElement = document.querySelector(".js-task-input");
+    const task = taskInputElement.value;
     const html = `
-        <div class="js-task">${task}</div>
+        <div>${task}</div>
     `
-    
+
+    document.querySelector(".js-task-list").innerHTML += html;
 })
