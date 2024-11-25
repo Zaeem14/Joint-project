@@ -15,7 +15,13 @@
      font-size: 1.2em;                         
 }
 
-.delete-button 
+.delete-button {
     font-size: 1.2em;
     cursor: pointer;
 }
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
