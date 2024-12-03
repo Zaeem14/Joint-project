@@ -67,12 +67,13 @@
 
 .taskName {
     font-size: 1.2em;
+    color: blue;
 }
 
 .delete-button {
     font-size: 1.2em;
     cursor: pointer;
-    margin-left: auto;
+    margin-left: 500px;
 }
 
 h1 {
@@ -82,12 +83,13 @@ h1 {
 
 .task-input {
     width: 200px;
-    height: 30px;
+    height: 45px;
 }
 
 .add-task-button {
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 45px;
+    margin-left: 30px;
 }
 
 .center {
