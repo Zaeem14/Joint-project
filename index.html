@@ -6,13 +6,16 @@
     </head>
 
     <body>
-        <div class="center">
-            <h1 class="title">Todo List</h1>
-            <input type="text" placeholder="Task Name" class="task-input js-task-input"  type="radio" checked="checked" name="radio">
-            <button class="add-task-button js-add-task-button" class="checkmark">Add Task</button>
-            <div class="task-list js-task-list">
+        <main class="main-container">
+            <div class="task-management-container center">
+                <h1 class="title">Todo List</h1>
+                <div class="add-task-elements-container">
+                    <input type="text" placeholder="Task Name" class="task-input js-task-input">
+                    <button class="add-task-button js-add-task-button">Add Task</button>
+                </div>
+                <div class="task-list js-task-list"></div>
             </div>
-        </div>
+        </main>
         <script src="scripts/script.js" type="module"></script>
     </body>
 </html>
