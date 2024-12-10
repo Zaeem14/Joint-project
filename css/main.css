@@ -51,7 +51,7 @@
     }
 
     .task-input::placeholder{
-        font-size: 15px;;
+        font-size: 20px;;
     }
 
 /* Show the indicator (dot/circle) when checked */
@@ -80,11 +80,6 @@
     margin-left: 500px;
 }
 
-h1 {
-    text-align: center;
-    text-decoration: underline;
-}
-
 .task-input {
     width: 200px;
     height: 45px;
@@ -100,4 +95,15 @@ h1 {
 
 .center {
     text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    flex: 1;
+    text-decoration: underline;
 }
